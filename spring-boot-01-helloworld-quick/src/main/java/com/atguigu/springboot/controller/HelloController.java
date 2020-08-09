@@ -27,8 +27,8 @@ public class HelloController {
         MyInterface dogSpeak = BeanContext.getMyBean(systemCode);
         dogSpeak.speak("66666666666");
 
-        dogSpeak.speak("66666666666");
-        dogSpeak.speak("66666666666");
+        dogSpeak.speak("444444444444444444");
+        dogSpeak.speak("444444444444444444");
 
         return "hello world quick!";
     }
