@@ -22,7 +22,7 @@ public class HelloController {
         MyInterface catSpeak = BeanContext.getMyBean("cat");
         catSpeak.speak("00000000000");
 
-
+        catSpeak.speak("00000000000");
         systemCode = "dog";
         MyInterface dogSpeak = BeanContext.getMyBean(systemCode);
         dogSpeak.speak("66666666666");
